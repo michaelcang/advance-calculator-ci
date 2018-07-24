@@ -1,7 +1,6 @@
-"use strict";
+
 
 class Calculator {
-  //write your code here
   constructor(num) {
     this.number = num || 1;
   }
@@ -52,4 +51,4 @@ class Calculator {
   }
 }
 
-module.exports = Calculator;
+module.exports = { Calculator };
