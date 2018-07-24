@@ -16,10 +16,10 @@ class Calculator {
     return this;
   }
 
-  // multiply(num) {
-  //   this.number *= num;
-  //   return this;
-  // }
+  multiply(num) {
+    this.number *= num;
+    return this;
+  }
 
   divide(num) {
     this.number /= num;
